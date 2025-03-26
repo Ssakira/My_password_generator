@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+  <script type="module" crossorigin src="/My_password_generator/assets/index-Ddfnb38a.js"></script>
+  <link rel="stylesheet" crossorigin href="/My_password_generator/assets/index-CHHGhL18.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="output-container">
+            <input type="text" id="password" readonly>
+            <button id="copyBtn">📋</button>
+        </div>
+        <div id="strength">Weak</div>
+        <div class="options">
+            <label>Length: <span id="lengthValue">12</span></label>
+            <input type="range" id="length" min="6" max="32" value="12">
+        </div>
+        <div class="checkboxes">
+            <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+            <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+            <label><input type="checkbox" id="numbers" checked> Numbers</label>
+            <label><input type="checkbox" id="symbols" checked> Symbols</label>
+        </div>
+        <button id="generateBtn">Generate Password</button>
+    </div>
+
+</body>
+</html>
