@@ -9,7 +9,7 @@ A simple **password generator** built using **Vite, Vanilla JavaScript, HTML, an
 ---
 
 ## 🚀 **Live Demo**
-🔗 [View Live]([https://ssakira.github.io/My_password_generator/](https://ssakira.github.io/My_password_generator/))
+🔗 [View Live](https://ssakira.github.io/My_password_generator/))
 
 ---
 
